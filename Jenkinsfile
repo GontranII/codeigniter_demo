@@ -10,7 +10,7 @@ pipeline {
         PROXMOX_CREDENITALS_ID = "proxmox-credentials"
         REMOTE_HOME = "/root/"
         CONSUL_CREDENTIAL_ID = "consul-sa-token"
-        CONSUL_SERVER = "consul-prod.home"
+        CONSUL_SERVER = "172.16.2.181"
     }
 
     stages {
